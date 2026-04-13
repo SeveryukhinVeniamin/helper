@@ -1,11 +1,3 @@
-'''SELECT
-    album.Title,
-    artist.Name
-FROM
-    album
-INNER JOIN artist
-    ON artist.ArtistId = album.ArtistId;'''
-
 import sqlite3
 
 con = sqlite3.connect('data.bd')
